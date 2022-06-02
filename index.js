@@ -40,6 +40,9 @@ let users = {
         });
     }
 }
+// this has the global contact issue in that when we use this inside the fuction it refers to the user scope
+// However if we use it outside then it means the window scope
+
 users.login()
 users.logProjects()
 
