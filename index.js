@@ -98,3 +98,5 @@ console.log(Math.round(random*100));
 // All types of objects,arrays,lists,functions ,dates,object literals,all objects etc
 // Stack-stores primitive values because of limited space
 // Heap-stores non-primitive values because its space is not limited
+
+// Stack and heap demonstarion in codes
