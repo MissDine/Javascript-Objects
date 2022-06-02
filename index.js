@@ -52,3 +52,17 @@ const books = [{title:"The river and the source", author:"Margret Ogola", reads:
 {title:"Kidagaa kimemwozea",author:"Ken Walibora",reads:1000}
 ]
 console.log(books);
+let Users = {
+    name: "Enid",
+    age : 25,
+    email:"enidnyatichi1212@gmail.com",
+    projects:["tv show app","budget tracker"],
+    gender:"Female",
+    login:function () {
+        console.log("User logged in");
+    },
+    books:[{title:"The river and the source", author:"Margret Ogola", reads: 1000},
+{title:"Kidagaa kimemwozea",author:"Ken Walibora",reads:1000}
+]
+}    
+
