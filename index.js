@@ -30,10 +30,19 @@ let users = {
     gender:"Female",
     login:function () {
         console.log("User logged in");
+    },
+    logProjects: function () {
+        // console.log(this.projects);; 
+        console.log("This use has done the following:")
+        this.projects.forEach(project => {
+            console.log(project);
+        });
     }
 }
 users.login()
+users.logProjects()
+// console.log(this);
 
-const Name = "Mark Isreal"
-names = Name.toUpperCase()
-console.log(names);
+// const Name = "Mark Isreal"
+// names = Name.toUpperCase()
+// console.log(names);
