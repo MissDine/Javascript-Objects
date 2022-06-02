@@ -31,6 +31,7 @@ let users = {
     login:function () {
         console.log("User logged in");
     },
+    // We should always use a normal function when using the this key word.This is due to scope issues
     logProjects: function () {
         // console.log(this.projects);; 
         console.log("This use has done the following:")
