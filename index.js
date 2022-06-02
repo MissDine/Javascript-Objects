@@ -31,7 +31,7 @@ let users = {
     login:function () {
         console.log("User logged in");
     },
-    // We should always use a normal function when using the this key word.This is due to scope issues
+    // We should always use a regular function when using the this key word.This is due to scope issues
     logProjects: function () {
         // console.log(this.projects);; 
         console.log("This use has done the following:")
@@ -42,8 +42,13 @@ let users = {
 }
 users.login()
 users.logProjects()
-// console.log(this);
 
-// const Name = "Mark Isreal"
-// names = Name.toUpperCase()
-// console.log(names);
+const Name = "Mark Isreal"
+names = Name.toUpperCase()
+console.log(names);
+
+// Storing objects in arrays
+const books = [{title:"The river and the source", author:"Margret Ogola", reads: 1000},
+{title:"Kidagaa kimemwozea",author:"Ken Walibora",reads:1000}
+]
+console.log(books);
