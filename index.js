@@ -77,4 +77,7 @@ const area = 7.7
 console.log(Math.round(area));
 // Floor-rounds it down no matter the figure eg 7.9 = 7
 console.log(Math.floor(area));
+// Ceil- Opposite of floor rounds it up
+const circum = 12.3
+console.log(Math.ceil(circum));
 
