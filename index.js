@@ -13,3 +13,8 @@ console.log(user.projects);
 // We can as well change or overwrite some object values for instance
 user.age = 16
 console.log(user.age);
+// WE can also access and change the various properties using the []
+console.log(user["name"]);
+
+user["name"] = "Nyatichi"
+console.log(user.name);
