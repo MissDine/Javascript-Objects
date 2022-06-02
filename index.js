@@ -10,3 +10,4 @@ console.log(user);
 // We can access a property in the object by using the dot notation for instance user.name etc
 console.log(user.name);
 console.log(user.projects);
+// We can as well change or overwrite some object values for instance
