@@ -75,4 +75,6 @@ const area = 7.7
 // Math methods
 // Rounding off a number
 console.log(Math.round(area));
+// Floor-rounds it down no matter the figure eg 7.9 = 7
+console.log(Math.floor(area));
 
