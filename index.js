@@ -7,3 +7,6 @@ let user = {
     gender:"Female"
 }
 console.log(user);
+// We can access a property in the object by using the dot notation for instance user.name etc
+console.log(user.name);
+console.log(user.projects);
