@@ -77,7 +77,15 @@ const area = 7.7
 console.log(Math.round(area));
 // Floor-rounds it down no matter the figure eg 7.9 = 7
 console.log(Math.floor(area));
-// Ceil- Opposite of floor rounds it up
+// Ceil- Opposite of floor rounds it up regardless of the number
 const circum = 12.3
 console.log(Math.ceil(circum));
+// Trunc-this takes away the decimal
+console.log(Math.trunc(circum));
 
+// Random numbers
+// Math.randomm generates random numbers between 0 and 1
+const random = Math.random()
+console.log(random);
+// Generating a random number between 1-100
+console.log(Math.round(random*100));
