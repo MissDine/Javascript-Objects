@@ -89,3 +89,12 @@ const random = Math.random()
 console.log(random);
 // Generating a random number between 1-100
 console.log(Math.round(random*100));
+
+// PRIMITIVE AND REFERENCE TYPES
+// Primitive types
+// Numbers,strings, boolean,undefined,symbols,, null
+
+// Reference/ Non-primitive
+// All types of objects,arrays,lists,functions ,dates,object literals,all objects etc
+// Stack-stores primitive values because of limited space
+// Heap-stores non-primitive values because its space is not limited
