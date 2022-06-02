@@ -11,3 +11,5 @@ console.log(user);
 console.log(user.name);
 console.log(user.projects);
 // We can as well change or overwrite some object values for instance
+user.age = 16
+console.log(user.age);
