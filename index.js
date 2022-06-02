@@ -20,3 +20,16 @@ user["name"] = "Nyatichi"
 console.log(user.name);
 
 console.log(typeof user);
+
+// ADDING METHODS TO OBJECTS
+let users = {
+    name: "Enid",
+    age : 25,
+    email:"enidnyatichi1212@gmail.com",
+    projects:["tv show app","budget tracker"],
+    gender:"Female",
+    login:function () {
+        console.log("User logged in");
+    }
+}
+users.login()
