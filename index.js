@@ -33,3 +33,7 @@ let users = {
     }
 }
 users.login()
+
+const Name = "Mark Isreal"
+names = Name.toUpperCase()
+console.log(names);
