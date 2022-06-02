@@ -18,3 +18,5 @@ console.log(user["name"]);
 
 user["name"] = "Nyatichi"
 console.log(user.name);
+
+console.log(typeof user);
