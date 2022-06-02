@@ -51,7 +51,7 @@ console.log(names);
 const books = [{title:"The river and the source", author:"Margret Ogola", reads: 1000},
 {title:"Kidagaa kimemwozea",author:"Ken Walibora",reads:1000}
 ]
-console.log(books);
+// console.log(books);
 let Users = {
     name: "Enid",
     age : 25,
@@ -64,5 +64,9 @@ let Users = {
     books:[{title:"The river and the source", author:"Margret Ogola", reads: 1000},
 {title:"Kidagaa kimemwozea",author:"Ken Walibora",reads:1000}
 ]
-}    
+}   
+console.log(Users.title,users.reads); 
+
+// Math objects
+console.log(Math);
 
