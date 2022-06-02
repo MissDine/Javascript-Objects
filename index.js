@@ -100,3 +100,21 @@ console.log(Math.round(random*100));
 // Heap-stores non-primitive values because its space is not limited
 
 // Stack and heap demonstarion in codes
+let score1 = 50
+let score2 = score1
+console.log(`score1:${score1}`,`score two:${score2}`);
+// For primitive values that are stored in the stack, whenn u change on value the other isn't affected as they are stored differently.
+score1 = 100
+console.log(`score1:${score1}`,`score two:${score2}`)
+// For reference values that are stored in the heap, when u change on value the other is affected as they have one pointer.
+let Us = {
+    name: "Enid",
+    age : 25,
+    email:"enidnyatichi1212@gmail.com",
+    projects:["tv show app","budget tracker"],
+    gender:"Female"
+}
+usr2 = Us
+Us.age = 16
+console.log(Us);
+console.log(usr2);
